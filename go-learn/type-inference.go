@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
-	fmt.Println(math.Pi)
+	v := 2.5
+	fmt.Printf("v is of type %T\n", v)
 }
